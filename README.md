@@ -1,4 +1,5 @@
-# sdr_embedded_dsp_personal_project
+# sdr_embedded_dsp_personal_project 
+*last update 8/19/2026*
 
 This repository is the main workspace for learning and experimenting with digital signal processing (DSP), embedded systems, and software-defined radio (SDR). The primary goal is to expand my current engineering skills by building a real-time communications receiver and progressively moving from high-level DSP experimentation toward lower-level embedded Linux, device-interface, and FPGA development.
 
@@ -20,7 +21,7 @@ The project is intentionally structured in phases so that each stage builds on t
 ### Current Hardware Utilized
 
 - Raspberry Pi 4 — 4-core embedded Linux host and primary real-time DSP platform.
-- USB SDR receiver & Antenna — RTL-SDR Blog V3 R860 RTL2832U 1PPM TCXO HF Bias Tee SMA Software Defined Radio with Dipole Antenna Kit 
+- USB SDR receiver & Antenna — Nooelec RTL-SDR v5 Bundle - NESDR Smart HF/VHF/UHF (100kHz-1.75GHz) Software Defined Radio. Premium RTLSDR w/ 0.5PPM TCXO, SMA Input, Aluminum Enclosure & 3 Antennas
 
 #### Planned / Optional Hardware
 
@@ -271,4 +272,4 @@ sdr_embedded_dsp_personal_project/
 +-- CMakeLists.txt
 +-- .gitignore
 ```
-*Project Status: Initial planning and hardware/software setup 8/19/2026*
+*Project Status: Initial planning and SDR/Antenna acquisition (already have Raspberry Pi 4) 8/19/2026*
