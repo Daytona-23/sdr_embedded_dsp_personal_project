@@ -53,7 +53,7 @@ The project is intentionally structured in phases so that each stage builds on t
 - Linux utilities including lsusb, dmesg, lsmod, and udevadm
 
 ### Target System Architecture
-
+```text
 RF Signal
     |
     v
@@ -76,9 +76,9 @@ Raspberry Pi 4
     |
     v
 Decoded Audio / Data / Performance Metrics
-
+```
 ### Later FPGA integration may move high-throughput processing closer to the sample source:
-
+```text
 SDR / Sample Source
         |
         v
@@ -100,7 +100,7 @@ SDR / Sample Source
 | Demodulation        |
 | Analysis / Logging  |
 +---------------------+
-
+```
 ## DSP and Communications Topics
 
 The project will be used to develop practical experience with:
@@ -143,7 +143,7 @@ As the project progresses, the Raspberry Pi will also be used to explore lower-l
 ### FPGA Extension (if budget allows)
 
 The optional FPGA stage will focus on implementing a digital downconversion and preprocessing chain in RTL:
-
+```text
 Input Samples
      |
      v
@@ -163,7 +163,7 @@ FIFO
      |
      v
 Raspberry Pi
-
+```
 The FPGA interface may expose configurable registers for items such as:
 
 - Center / tuning frequency
@@ -240,7 +240,7 @@ A successful implementation should demonstrate:
   
 
 ## Planned Repository Structure
-
+```text
 sdr_embedded_dsp_personal_project/
 |
 +-- README.md
@@ -270,5 +270,5 @@ sdr_embedded_dsp_personal_project/
 |
 +-- CMakeLists.txt
 +-- .gitignore
-
+```
 *Project Status: Initial planning and hardware/software setup 8/19/2026*
